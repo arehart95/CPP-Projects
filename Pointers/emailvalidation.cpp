@@ -28,7 +28,7 @@ bool is_valid(string email)
 
 
 
-int main()   //DO NOT change the 'main' signature
+int main()   
 {
     string email;
     getline(cin, email);
