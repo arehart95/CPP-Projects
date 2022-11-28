@@ -2,6 +2,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/* Note: This was part of the Pointers lab but using pointers is still difficult for me. I was able to create the required program without using a pointer and it
+   was significantly easier to understand what was going on. */
 
 bool is_valid(string email)
 {
