@@ -60,13 +60,13 @@ int main()
     string empName;
     int days;
 
-    cout << "Enter the associate ID: " << endl;
+    cout << "Enter the associate's ID: " << endl;
     cin >> empID;
 
-    cout << "Enter the associate Name: " << endl;
+    cout << "Enter the associate's name: " << endl;
     cin >> empName;
 
-    cout << "Enter the number of days: " << endl;
+    cout << "Enter the number of days since training began: " << endl;
     cin >> days;
 
     empObj.setAssociateID(empID);
