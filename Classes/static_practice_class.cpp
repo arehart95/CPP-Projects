@@ -15,7 +15,7 @@ class College
 
     void setPrincipalName(string name)
     {
-        principal_name = name;
+        this->principal_name = name;
     }
     string getPrincipalName()
     {
