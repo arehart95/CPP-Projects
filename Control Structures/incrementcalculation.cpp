@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int main()   //DO NOT change the 'main' signature
+int main()   
 {
     int salary;
     int appraisedSalary = 0;
