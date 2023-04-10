@@ -10,10 +10,10 @@ struct Employee
     
     int calc_Bonus() {
     int bonus;
-    if(basicsalary <= 7000 && sales <= 10) 
-        bonus = 1500;
-    else if (basicsalary <= 7000 && sales >= 10)
+    if(basicsalary <= 7000 && sales < 10) 
         bonus = 1000;
+    else if (basicsalary <= 7000 && sales >= 10)
+        bonus = 1500;
     else if(basicsalary > 7000 && basicsalary <= 15000 && sales <= 10)
         bonus = 2000;
     else if(basicsalary > 7000 && basicsalary <= 15000 && sales >= 10)
