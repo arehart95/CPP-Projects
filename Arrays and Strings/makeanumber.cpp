@@ -2,9 +2,8 @@
 using namespace std;
 
 
-int main()   //DO NOT change the 'main' signature
+int main()   
 {
-    
     int arrSize, i;
     int temp = 0;
     cout << "Enter the size of an array:" << endl;
