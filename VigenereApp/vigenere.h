@@ -9,7 +9,7 @@ class Vigenere {
 public:
     Vigenere(const Vigenere&) = delete;
     Vigenere() = default;
-
+    ~Vigenere() = default;
     string generateKey(const string& text, string key) {
         this->_key = key;
         this->_plainText = text;
