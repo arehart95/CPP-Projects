@@ -7,7 +7,9 @@ using namespace std;
 class Vigenere {
     string _plainText, _key, _cipherText;
 public:
-    //Vigenere(const Vigenere&) = delete;
+    Vigenere(const Vigenere&) = delete;
+    Vigenere() = default;
+
     string generateKey(const string& text, string key) {
         this->_key = key;
         this->_plainText = text;
