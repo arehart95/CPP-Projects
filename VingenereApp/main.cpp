@@ -1,5 +1,5 @@
 #include <iostream>
-#include </home/quentin/Downloads/vigenere.h>
+#include <vigenere.h>
 using namespace std;
 
 int main() {
